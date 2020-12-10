@@ -26,7 +26,7 @@ requirements:
     - dash
     - dash-auth
     - dash-bootstrap-components
-    - dash-table
+    - dash-table ==4.11.1
     - dtreeviz >=1.0
     - joblib
     - jupyter-dash
