@@ -1,5 +1,5 @@
 {% set name = "explainerdashboard" %}
-{% set version = "0.2.15" %}
+{% set version = "0.2.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
-  sha256: bd35c6d0a48e3eb786010db63c8ef5cfc11cf86c2e57d358eb07264c8b2c7fea
+  sha256: 90b49cca71850c29fc8b05dd79070a249acb35c4c372f38f4c41c3a80b381a19
 
 build:
   number: 0
@@ -37,6 +37,7 @@ requirements:
     - scikit-learn
     - shap >=0.36
     - shortuuid
+    - waitress
 
 test:
   imports:
