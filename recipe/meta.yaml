@@ -1,5 +1,5 @@
 {% set name = "explainerdashboard" %}
-{% set version = "0.2.17" %}
+{% set version = "0.2.19" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
-  sha256: 90b49cca71850c29fc8b05dd79070a249acb35c4c372f38f4c41c3a80b381a19
+  sha256: c4e0d4cc200ae737f546828acd964f74e51c70763f01d00fc3992bd7687b2191
 
 build:
   number: 0
