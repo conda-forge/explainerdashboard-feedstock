@@ -27,6 +27,7 @@ requirements:
     - dash-auth
     - dash-bootstrap-components
     - dtreeviz >=1.0
+    - flask_simplelogin
     - joblib
     - jupyter-dash
     - numpy
@@ -35,8 +36,9 @@ requirements:
     - pdpbox
     - python
     - scikit-learn
-    - shap >=0.36
+    - shap >=0.37
     - shortuuid
+    - waitress
 
 test:
   imports:
