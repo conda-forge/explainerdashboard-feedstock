@@ -27,6 +27,7 @@ requirements:
     - dash-auth
     - dash-bootstrap-components
     - dtreeviz >=1.0
+    - flask_simplelogin
     - joblib
     - jupyter-dash
     - numpy
