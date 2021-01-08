@@ -1,5 +1,5 @@
 {% set name = "explainerdashboard" %}
-{% set version = "0.2.15" %}
+{% set version = "0.2.19" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
-  sha256: bd35c6d0a48e3eb786010db63c8ef5cfc11cf86c2e57d358eb07264c8b2c7fea
+  sha256: c4e0d4cc200ae737f546828acd964f74e51c70763f01d00fc3992bd7687b2191
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - dash-auth
     - dash-bootstrap-components
     - dtreeviz >=1.0
+    - flask_simplelogin
     - joblib
     - jupyter-dash
     - numpy
@@ -35,8 +36,10 @@ requirements:
     - pdpbox
     - python
     - scikit-learn
-    - shap >=0.36
+    - shap >=0.37
     - shortuuid
+    - slicer ==0.0.3
+    - waitress
 
 test:
   imports:
