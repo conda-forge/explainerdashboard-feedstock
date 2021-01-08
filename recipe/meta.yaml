@@ -38,6 +38,7 @@ requirements:
     - scikit-learn
     - shap >=0.37
     - shortuuid
+    - slicer
     - waitress
 
 test:
