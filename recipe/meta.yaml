@@ -33,7 +33,6 @@ requirements:
     - numpy
     - oyaml
     - pandas
-    - pdpbox
     - python
     - scikit-learn
     - shap >=0.37
