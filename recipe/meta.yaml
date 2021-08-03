@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - click
     - dash
@@ -33,7 +33,7 @@ requirements:
     - numpy
     - oyaml
     - pandas
-    - python
+    - python >=3.6
     - scikit-learn
     - shap >=0.37
     - waitress
