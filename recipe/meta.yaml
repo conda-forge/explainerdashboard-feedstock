@@ -11,7 +11,7 @@ source:
   sha256: 8d2a704e8bd6c8b85f43cf919b04f5560b8246e1958dcd9efa9c9e21b755bed9
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - explainerdashboard = explainerdashboard.cli:explainerdashboard_cli
@@ -37,7 +37,6 @@ requirements:
     - scikit-learn
     - shap >=0.37
     - shortuuid
-    - slicer ==0.0.3
     - waitress
 
 test:
