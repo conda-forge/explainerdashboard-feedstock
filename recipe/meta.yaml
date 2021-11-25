@@ -22,10 +22,11 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - python-graphviz
     - click
     - dash
     - dash-auth
-    - dash-bootstrap-components
+    - dash-bootstrap-components <=1
     - dtreeviz >=1.0
     - flask_simplelogin
     - joblib
