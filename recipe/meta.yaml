@@ -30,6 +30,7 @@ requirements:
     - dash-bootstrap-components==0.8.3
     - dash-html-components==2.0.0
     - dash-core-components==2.0.0
+    - dash-table==5.0.0
     - dtreeviz >=1.0
     - flask_simplelogin
     - joblib
