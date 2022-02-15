@@ -28,6 +28,7 @@ requirements:
     - dash-auth
     - dash-bootstrap-components
     - dash-html-components
+    - dash-core-components
     - dash-table
     - dtreeviz >=1.0
     - flask_simplelogin
