@@ -1,5 +1,5 @@
 {% set name = "explainerdashboard" %}
-{% set version = "0.3.8" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
-  sha256: c373c0e6b83315968cc7e4fa82ac490731754542bfdb3295732d2a921b9d1bc7
+  sha256: df3a39f6572056b4be6ea9acbf01dc6f6f8388484fdc5a10ad86d9a005766924
 
 build:
   number: 0
@@ -20,25 +20,26 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - python >=3.6
+    - python >=3.8
     - click
     - orjson
-    - dash
+    - dash >=2.3.1
     - dash-auth
-    - dash-bootstrap-components ==0.8.3
-    - dash-html-components ==2.0.0
-    - dash-core-components ==2.0.0
-    - dash-table ==5.0.0
-    - dtreeviz >=1.0
+    - dash-bootstrap-components >=1
+#     - dash-html-components ==2.0.0
+#     - dash-core-components ==2.0.0
+#     - dash-table ==5.0.0
+    - dtreeviz >=1.3
+    - graphviz>=0.18.2
     - flask_simplelogin
     - joblib
     - jupyter-dash
     - numpy
     - oyaml
-    - pandas
-    - scikit-learn
+    - pandas >=1.1
+    - scikit-learn >=1.1
     - shap >=0.37
     - waitress
 
