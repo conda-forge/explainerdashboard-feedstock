@@ -24,7 +24,6 @@ requirements:
   run:
     - python >=3.8
     - click
-    - orjson
     - dash >=2.3.1
     - dash-auth
     - dash-bootstrap-components >=1
@@ -36,7 +35,7 @@ requirements:
     - flask_simplelogin
     - joblib
     - jupyter-dash
-    - numpy
+    - numpy <1.24
     - oyaml
     - pandas >=1.1
     - scikit-learn >=1.1
