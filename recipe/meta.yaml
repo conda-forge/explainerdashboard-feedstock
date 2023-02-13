@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
-  sha256: f3bfdfb3b3b05d431847d3a9649fee96a3a35c0bf1a33024d02aabff588d0a3e
+  sha256: 8715f32afe45c5818d1e0d16b5888f2e1ce18a14a6dece41942653f3050d91f7
 
 build:
   number: 0
