@@ -1,11 +1,11 @@
-About explainerdashboard
-========================
+About explainerdashboard-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/explainerdashboard-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/oegedijk/explainerdashboard
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/explainerdashboard-feedstock/blob/main/LICENSE.txt)
 
 Summary: explainerdashboard allows you quickly build an interactive dashboard to explain the inner workings of your machine learning model.
 
