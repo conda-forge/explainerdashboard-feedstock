@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.8
     - click
-    - dash >=2.3.1
+    - dash >=2.10.1
     - dash-auth
     - dash-bootstrap-components >=1
     - dash-html-components ==2.0.0
@@ -35,11 +35,11 @@ requirements:
     - flask_simplelogin
     - joblib
     - jupyter-dash
-    - numpy <=1.23
+    - numpy <=1.25
     - oyaml
     - pandas >=1.1
     - scikit-learn >=1.1
-    - shap >=0.37
+    - shap >=0.42
     - waitress
 
 test:
