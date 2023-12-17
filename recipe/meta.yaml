@@ -35,7 +35,7 @@ requirements:
     - flask_simplelogin
     - joblib
     - jupyter-dash
-    - numpy <=1.25
+    - numpy
     - oyaml
     - pandas >=1.1
     - scikit-learn >=1.1
