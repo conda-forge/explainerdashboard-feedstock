@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/explainerdashboard-{{ version }}.tar.gz
   sha256: 5fad61e4a78a398e76f30d8eac60e9364db93c3bd3d11f80d7c4c741416d15c6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - explainerdashboard = explainerdashboard.cli:explainerdashboard_cli
@@ -20,9 +20,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - click
     - dash >=2.10.1
     - dash-auth
@@ -51,6 +51,7 @@ test:
     - explainerdashboard --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/oegedijk/explainerdashboard
