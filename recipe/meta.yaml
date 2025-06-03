@@ -21,10 +21,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - click
     - dash >=2.10,<3
     - dash-auth
@@ -53,6 +53,7 @@ test:
     - explainerhub --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/oegedijk/explainerdashboard
